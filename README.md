@@ -40,10 +40,9 @@ xclip -sel clip < ~/.ssh/id_ed25519.pub
     `dit submodule update --remote`
 
 ### Steps to install
-- Install hasklug font.
 - Full update the system by executing and reboot after.
 
-    `./.dotfiles-setup/init.sh`
+    `pamac install base base-devel`
 
 - Install the needed apps then reboot.
 
